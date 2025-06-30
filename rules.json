@@ -1,0 +1,1370 @@
+[
+  {
+    "rule": "Specify the subject of procurement using the relevant codes from the Unified Procurement Dictionary (DK 021:2015) as listed in Table 1 of the Methodical Recommendations.",
+    "examples_compliance": [
+      "For new construction, specify code 45210000-2.",
+      "For project documentation development, specify code 71320000-7."
+    ],
+    "examples_non_compliance": [
+      "Using a generic code that does not accurately reflect the type of works or services.",
+      "Not specifying any DK 021:2015 code."
+    ],
+    "applies_to": "1)"
+  },
+  {
+    "rule": "Determine the expected value for works based on approved project documentation and relevant guidelines (CMU Decree No 275, Minregion Decree No 281, cost norms).",
+    "examples_compliance": [
+      "Calculate the expected value based on the detailed cost estimate from the approved project documentation.",
+      "Apply the norms and rules from the 'Guidelines for determining the cost of construction'."
+    ],
+    "examples_non_compliance": [
+      "Determining the expected value arbitrarily without using project documentation or official guidelines.",
+      "Using outdated cost norms."
+    ],
+    "applies_to": "1.2)"
+  },
+  {
+    "rule": "Determine the expected value for accompanying services (technical supervision, engineer-consultant, etc.) based on the list and volume of services and the costs included in the consolidated cost estimate.",
+    "examples_compliance": [
+      "Calculate the expected value for technical supervision based on the percentage allocated for such services in the investor's consolidated cost estimate."
+    ],
+    "examples_non_compliance": [
+      "Setting the expected value for services without reference to the project's consolidated cost estimate."
+    ],
+    "applies_to": "1.2)"
+  },
+  {
+    "rule": "State in the tender documentation that proposals with a price exceeding the expected value of the subject of procurement will not be accepted for consideration.",
+    "examples_compliance": [
+      "Include a clause in the Instructions for Participants stating 'Tender proposals with a price higher than the expected value will be rejected'."
+    ],
+    "examples_non_compliance": [
+      "Allowing participants to submit proposals with a price higher than the expected value."
+    ],
+    "applies_to": "2)"
+  },
+  {
+    "rule": "Clearly define the list of works or services provided by the engineer-consultant and/or technical supervision in the tender documentation and the draft contract.",
+    "examples_compliance": [
+      "Include a detailed scope of work for technical supervision in the technical specification and draft contract.",
+      "Specify the exact consulting services to be provided by the engineer-consultant."
+    ],
+    "examples_non_compliance": [
+      "Using vague descriptions of the services provided by the engineer-consultant or technical supervision.",
+      "Having overlapping responsibilities between the customer's service and the engaged consultant/supervisor without clear delineation."
+    ],
+    "applies_to": "4.1), 7.1)"
+  },
+  {
+    "rule": "Include the approved project documentation in full as part of the tender documentation.",
+    "examples_compliance": [
+      "Upload all sections of the approved project documentation as annexes to the tender documentation in the electronic system."
+    ],
+    "examples_non_compliance": [
+      "Providing only a summary of the project documentation.",
+      "Providing project documentation that has not been formally approved."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "Include cost documentation (Bill of Quantities, Resource Statement, etc.) in specialized electronic system formats (.ibs, .idc, .bsdu, .bdcu, etc.) and Excel format. These files must be open for calculation in specialized software.",
+    "examples_compliance": [
+      "Provide the Bill of Quantities in both PDF and .ibs format.",
+      "Ensure the Excel files for cost documentation are not password-protected or read-only."
+    ],
+    "examples_non_compliance": [
+      "Providing cost documentation only in PDF format.",
+      "Providing cost documentation in proprietary formats that cannot be opened by common software."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "Include specific documents (inspection report, full project documentation, expert report, technical passport, photos, shelter letter if applicable) as part of the project documentation in the tender documentation.",
+    "examples_compliance": [
+      "Ensure the uploaded project documentation annexes include the positive expert report registered in EDESSB.",
+      "Include the building inspection report if available."
+    ],
+    "examples_non_compliance": [
+      "Missing required documents like the expert report from the project documentation package.",
+      "Including outdated or unapproved versions of project documents."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "Do not require participants to provide licenses or permits in their tender proposals or for contract signing, except for cases explicitly excluded by CMU Resolution No 314.",
+    "examples_compliance": [
+      "State in the TD that participants confirm their right to perform activities by submitting a declaration (if applicable under CMU 314) or by the fact of their registration in the relevant register.",
+      "Only require permits for activities specifically listed as exceptions in CMU 314."
+    ],
+    "examples_non_compliance": [
+      "Requiring participants to provide copies of all licenses for construction activities in their proposal.",
+      "Rejecting a proposal because a participant relies on a declaration under martial law instead of a full license (unless it's an excluded activity)."
+    ],
+    "applies_to": "2)"
+  },
+  {
+    "rule": "If a requirement for documents proving the right to conduct business activity is set (for activities excluded from CMU 314 declaration), specify the list of activities/works requiring permits and note the possibility of providing information electronically (links to registers) or explanation letters.",
+    "examples_compliance": [
+      "List the specific types of works requiring a license according to law and state that a link to the relevant register entry or an explanation letter can be provided instead of a copy."
+    ],
+    "examples_non_compliance": [
+      "Requiring only paper copies of licenses without allowing electronic confirmation or explanation letters.",
+      "Setting a requirement for permits without specifying which activities require them."
+    ],
+    "applies_to": "3)"
+  },
+  {
+    "rule": "If subcontractors perform specific works requiring permits, the participant can provide their permits and information about their involvement.",
+    "examples_compliance": [
+      "State in the TD that permits for works performed by subcontractors should be provided by the subcontractor, along with confirmation of their involvement by the participant."
+    ],
+    "examples_non_compliance": [
+      "Requiring the main participant to hold permits for all works, even those performed by licensed subcontractors."
+    ],
+    "applies_to": "3)"
+  },
+  {
+    "rule": "Do not specify a particular institution for providing the tender security or set requirements for its charter capital, rating, etc.",
+    "examples_compliance": [
+      "State that the tender security must be a bank guarantee from any bank licensed in Ukraine or a foreign bank."
+    ],
+    "examples_non_compliance": [
+      "Requiring the bank guarantee to be issued by one of a predefined list of banks.",
+      "Setting minimum requirements for the bank's financial rating."
+    ],
+    "applies_to": "6)"
+  },
+  {
+    "rule": "The bank guarantee for tender security must be formatted according to NBU Resolution No 639 and Ministry of Economy Decree No 2628.",
+    "examples_compliance": [
+      "Include a requirement in the TD that the bank guarantee must comply with the forms and requirements set by NBU and the Ministry of Economy."
+    ],
+    "examples_non_compliance": [
+      "Accepting a bank guarantee that does not meet the mandatory regulatory requirements."
+    ],
+    "applies_to": "6)"
+  },
+  {
+    "rule": "The size of the tender security cannot exceed 0.5% of the expected value for works and 3% for services or goods.",
+    "examples_compliance": [
+      "Set the tender security amount for construction works at 0.4% of the expected value."
+    ],
+    "examples_non_compliance": [
+      "Setting the tender security amount for works at 1% of the expected value."
+    ],
+    "applies_to": "6)"
+  },
+  {
+    "rule": "The size of the contract performance security cannot exceed 5% of the contract value.",
+    "examples_compliance": [
+      "Set the contract performance security amount at 3% of the contract value."
+    ],
+    "examples_non_compliance": [
+      "Setting the contract performance security amount at 7% of the contract value."
+    ],
+    "applies_to": "6.2), 7.1)"
+  },
+  {
+    "rule": "The bank guarantee for contract performance security must not contain conditions that complicate or make it impossible for the customer to receive funds from the guarantor.",
+    "examples_compliance": [
+      "Specify that the guarantee must be unconditional and payable upon first demand without requiring additional documents from the principal or third parties."
+    ],
+    "examples_non_compliance": [
+      "Including clauses in the guarantee requiring the customer to provide proof of the principal's default or obtain the principal's consent before claiming payment."
+    ],
+    "applies_to": "6.2), 7.1)"
+  },
+  {
+    "rule": "The bank guarantee for contract performance security must be formatted according to NBU Resolution No 639 (for resident banks) or ICC URDG 758 (for non-resident banks).",
+    "examples_compliance": [
+      "Require the guarantee to explicitly state its compliance with NBU Resolution No 639 or ICC URDG 758."
+    ],
+    "examples_non_compliance": [
+      "Accepting a guarantee that does not reference or comply with the relevant international or national standards."
+    ],
+    "applies_to": "6.2), 7.1)"
+  },
+  {
+    "rule": "The bank guarantee for contract performance security must contain specific mandatory details: full name of the winner (principal), name of the beneficiary (Customer), amount and currency, statement securing principal's contract obligations, unconditional obligation to pay within 5 banking days upon first demand, statement that payments are made regardless of principal/third party objections, statement that guarantee costs are borne by the principal, effective date, validity period (at least contract term + 1 month), compliance with Ukrainian law/URDG 758.",
+    "examples_compliance": [
+      "Provide a template or detailed list of required clauses for the bank guarantee in the TD."
+    ],
+    "examples_non_compliance": [
+      "Accepting a guarantee that omits key information like the beneficiary's name or the validity period.",
+      "Accepting a guarantee with a validity period shorter than the contract term plus one month."
+    ],
+    "applies_to": "6.2), 7.1)"
+  },
+  {
+    "rule": "The bank guarantee text must NOT contain: reference to the guarantee agreement conditions, conditions reducing the bank's liability (except for late claim/payment), conditions complicating payment (additional confirmations), limitation of liability to the guarantee amount in case of bank's default, conditions for revocation by the bank-guarantor.",
+    "examples_compliance": [
+      "Explicitly state in the TD that the bank guarantee must not include these prohibited conditions."
+    ],
+    "examples_non_compliance": [
+      "Accepting a guarantee that includes a clause allowing the bank to revoke the guarantee unilaterally."
+    ],
+    "applies_to": "6.2), 7.1)"
+  },
+  {
+    "recommendation": "Use 'Price' as the sole evaluation criterion with a weight of 100%.",
+    "examples_compliance": [
+      "Set the evaluation criteria in the TD as 100% Price."
+    ],
+    "examples_non_compliance": [
+      "Using multiple evaluation criteria, such as Price (80%) and Performance Period (20%)."
+    ],
+    "applies_to": "5)"
+  },
+  {
+    "rule": "The deadline for submitting tender proposals cannot be less than 7 days from the date of publication of the tender announcement and tender documentation.",
+    "examples_compliance": [
+      "Set the deadline for proposal submission at 10 days."
+    ],
+    "examples_non_compliance": [
+      "Setting the deadline for proposal submission at 5 days."
+    ],
+    "applies_to": "2.2)"
+  },
+  {
+    "recommendation": "Set the deadline for submitting proposals to at least 14 days, and at least 20 days for procurements with an expected value of 100 million UAH or more.",
+    "examples_compliance": [
+      "For a procurement with an expected value of 50 million UAH, set the deadline at 15 days.",
+      "For a procurement with an expected value of 150 million UAH, set the deadline at 25 days."
+    ],
+    "examples_non_compliance": [
+      "For a complex construction project with an expected value of 200 million UAH, setting the deadline at only 7 days."
+    ],
+    "applies_to": "2.2)"
+  },
+  {
+    "recommendation": "Consider extending the deadline if participants submit justified requests.",
+    "examples_compliance": [
+      "If multiple participants request an extension due to the complexity of the project documentation, extend the deadline."
+    ],
+    "examples_non_compliance": [
+      "Ignoring justified requests for extension, potentially limiting competition."
+    ],
+    "applies_to": "2.2)"
+  },
+  {
+    "recommendation": "Include a requirement for forming the contract price according to the 'Guidelines for determining the cost of construction'.",
+    "examples_compliance": [
+      "Reference the relevant sections of the 'Guidelines for determining the cost of construction' in the TD when describing how the contract price should be calculated."
+    ],
+    "examples_non_compliance": [
+      "Not providing any guidance on how the contract price should be calculated."
+    ],
+    "applies_to": "2), 4.1)"
+  },
+  {
+    "rule": "Define the contract price type as fixed (тверда).",
+    "examples_compliance": [
+      "State in the draft contract that the contract price is fixed."
+    ],
+    "examples_non_compliance": [
+      "Defining the contract price as approximate (приблизна)."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "The participant must include costs for covering risks and additional costs related to inflation in the contract price according to the 'Guidelines for determining the cost of construction'.",
+    "examples_compliance": [
+      "Require participants to show separate line items for risk coverage and inflation costs in their cost calculations, calculated according to the Guidelines."
+    ],
+    "examples_non_compliance": [
+      "Allowing participants to submit price calculations that do not include provisions for risks and inflation as required by the Guidelines."
+    ],
+    "applies_to": "4.1)"
+  },
+  {
+    "recommendation": "Based on investor documentation, specify the amount of funds for covering risks and inflation costs in the tender documentation for mandatory inclusion by each participant.",
+    "examples_compliance": [
+      "State the specific amounts or percentages for risk and inflation coverage that participants must include in their contract price calculations, derived from the investor's cost estimate."
+    ],
+    "examples_non_compliance": [
+      "Leaving the calculation of risk and inflation costs entirely up to the participant without providing a basis from the investor documentation."
+    ],
+    "applies_to": "4.1)"
+  },
+  {
+    "rule": "The tender documentation must contain a draft procurement contract, including the procedure for changing its terms.",
+    "examples_compliance": [
+      "Upload a complete draft contract as part of the TD, including a section on contract amendments."
+    ],
+    "examples_non_compliance": [
+      "Not including a draft contract in the TD.",
+      "Including a draft contract but without specifying the procedure for amendments."
+    ],
+    "applies_to": "7)"
+  },
+  {
+    "recommendation": "Upload the draft contract with annexes as a separate file in the electronic system.",
+    "examples_compliance": [
+      "Provide the draft contract and its standard annexes (like the work schedule template) as distinct files."
+    ],
+    "examples_non_compliance": [
+      "Embedding the draft contract within the main tender documentation file, making it harder for participants to review."
+    ],
+    "applies_to": "7)"
+  },
+  {
+    "rule": "Contracts for construction works are concluded according to the General Terms for concluding and performing construction contracts, approved by CMU Resolution No 668.",
+    "examples_compliance": [
+      "Reference CMU Resolution No 668 in the draft contract as the basis for its terms."
+    ],
+    "examples_non_compliance": [
+      "Drafting a contract for construction works that contradicts the mandatory provisions of CMU Resolution No 668."
+    ],
+    "applies_to": "7)"
+  },
+  {
+    "recommendation": "Include anti-corruption and sanctions clauses in the draft contract.",
+    "examples_compliance": [
+      "Add specific clauses regarding compliance with anti-corruption laws and the application of sanctions."
+    ],
+    "examples_non_compliance": [
+      "Omitting standard anti-corruption or sanctions clauses."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "recommendation": "Include provisions in the draft contract regarding the engineer-consultant's authority and the contractor's obligations regarding site access (if an engineer-consultant is involved).",
+    "examples_compliance": [
+      "Specify the engineer-consultant's rights to access the construction site and inspect works, and the contractor's obligation to provide such access."
+    ],
+    "examples_non_compliance": [
+      "Not clarifying the role and access rights of the engineer-consultant in the contract."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "recommendation": "Include the procedure for accounting for costs related to inflation in mutual settlements in the draft contract.",
+    "examples_compliance": [
+      "Define how the inflation costs included in the contract price will be accounted for during payment for completed works."
+    ],
+    "examples_non_compliance": [
+      "Not providing a clear mechanism for handling inflation costs during contract performance."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "recommendation": "Include the right for the customer to unilaterally terminate the contract under specific grounds.",
+    "examples_compliance": [
+      "List the specific grounds for unilateral termination in the draft contract."
+    ],
+    "examples_non_compliance": [
+      "Not including any provisions for unilateral termination by the customer."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "Include specific grounds for unilateral contract termination in the draft contract: contractor bankruptcy/termination, contractor/owner sanctioned (under Law 'On Sanctions' or by UN, EU, US sanctions), court decision based on State Audit Service monitoring.",
+    "examples_compliance": [
+      "Clearly list these specific events as grounds for the customer's unilateral termination of the contract."
+    ],
+    "examples_non_compliance": [
+      "Omitting the ground for termination related to sanctions against the contractor or its beneficial owner.",
+      "Not including the ground for termination based on a court decision resulting from State Audit Service monitoring."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "recommendation": "Define specific sizes and grounds for applying penalties (fine, penalty) in the draft contract.",
+    "examples_compliance": [
+      "Include a section in the draft contract specifying penalties for delay, poor quality, etc."
+    ],
+    "examples_non_compliance": [
+      "Having a draft contract without any penalty clauses."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "Apply a penalty of 0.1% of the cost of delayed works for each day of delay, plus a 7% fine for delays over 30 days.",
+    "examples_compliance": [
+      "Specify these exact penalty amounts and conditions for delays in the draft contract."
+    ],
+    "examples_non_compliance": [
+      "Setting different, lower penalty amounts for delays.",
+      "Not including the additional 7% fine for delays over 30 days."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "recommendation": "Apply a 20% fine on the cost of low-quality works (Article 231 of the Commercial Code).",
+    "examples_compliance": [
+      "Include a clause in the draft contract stating that a 20% fine will be applied to the cost of works found to be of low quality."
+    ],
+    "examples_non_compliance": [
+      "Not including a specific penalty for low-quality works."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "recommendation": "Apply operational-commercial sanctions according to Article 236 of the Commercial Code (refusal of future relations, refusal to pay for improperly performed obligations, etc.).",
+    "examples_compliance": [
+      "Include clauses in the draft contract referencing the possibility of applying operational-commercial sanctions as per the Commercial Code."
+    ],
+    "examples_non_compliance": [
+      "Limiting the customer's remedies strictly to penalties without mentioning other possible sanctions."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "Avoid requirements that have been recognized as discriminatory by the appeal body.",
+    "examples_compliance": [
+      "Review decisions of the Antimonopoly Committee of Ukraine regarding similar procurements to identify requirements that were deemed discriminatory."
+    ],
+    "examples_non_compliance": [
+      "Copying qualification criteria from previous tenders without checking if they were challenged and found discriminatory."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "Do not require specific models or brands of equipment without allowing equivalents or analogs.",
+    "examples_compliance": [
+      "When specifying required equipment, always add 'or equivalent' after mentioning a specific brand or model."
+    ],
+    "examples_non_compliance": [
+      "Requiring 'Caterpillar 320 excavator' without allowing equivalent excavators from other manufacturers."
+    ],
+    "applies_to": "3.1), 4.1)"
+  },
+  {
+    "rule": "Allow the use of leased equipment or material base.",
+    "examples_compliance": [
+      "Explicitly state in the TD that ownership, lease, or other legal right of use of equipment is acceptable."
+    ],
+    "examples_non_compliance": [
+      "Requiring participants to own all necessary equipment."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Do not require a specific location for the material-technical base.",
+    "examples_compliance": [
+      "Accept confirmation of material-technical base availability without specifying its geographical location."
+    ],
+    "examples_non_compliance": [
+      "Requiring the participant's material-technical base to be located within a certain radius of the construction site."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Do not set requirements for employees' educational institutions or minimum years of work experience.",
+    "examples_compliance": [
+      "Require employees to have relevant qualifications or certifications, but not a specific degree or minimum years of experience."
+    ],
+    "examples_non_compliance": [
+      "Requiring the chief engineer to have a degree from a specific university or at least 10 years of experience."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Allow the involvement of part-time employees.",
+    "examples_compliance": [
+      "State in the TD that employees can be engaged on a full-time, part-time, or civil-law contract basis."
+    ],
+    "examples_non_compliance": [
+      "Requiring all key personnel to be full-time employees of the participant."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Do not set requirements for a specific number of similar contracts.",
+    "examples_compliance": [
+      "Require experience with similar contracts, but allow participants to meet the experience requirement with one or multiple contracts, focusing on the total value or scope."
+    ],
+    "examples_non_compliance": [
+      "Requiring participants to have completed at least 3 similar contracts."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Do not define similarity of contracts solely by the subject of procurement; consider the type of works performed (new construction, reconstruction, etc.) and the consequence class of the object.",
+    "examples_compliance": [
+      "Define similar experience based on the type of construction works performed (e.g., reconstruction) and the consequence class (e.g., CC2 or higher), rather than just the formal subject name."
+    ],
+    "examples_non_compliance": [
+      "Stating that only contracts with the exact subject 'Capital repair of school building' will be considered similar."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Do not require similar contracts concluded with a specific customer.",
+    "examples_compliance": [
+      "Accept similar contracts performed for any customer, public or private."
+    ],
+    "examples_non_compliance": [
+      "Requiring participants to have completed similar contracts specifically for state-owned enterprises."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Avoid excessive requirements for third-party documents (e.g., overly specific content or format for reference letters, requiring reference letters for every single completed contract).",
+    "examples_compliance": [
+      "Request reference letters as confirmation of performance but provide flexibility in their format or content.",
+      "Allow other documents (like acceptance acts) as primary proof of performance."
+    ],
+    "examples_non_compliance": [
+      "Providing a strict template for reference letters that must be filled out exactly, including specific phrases or information that may be difficult for the previous customer to provide.",
+      "Requiring a separate reference letter for every single similar contract listed."
+    ],
+    "applies_to": "2)"
+  },
+  {
+    "rule": "Do not restrict participants in their choice of banks for providing tender or contract performance security.",
+    "examples_compliance": [
+      "Accept guarantees from any bank that meets the legal requirements for issuing such guarantees in Ukraine."
+    ],
+    "examples_non_compliance": [
+      "Listing specific banks from which guarantees will be accepted."
+    ],
+    "applies_to": "6)"
+  },
+  {
+    "rule": "Do not require notarization of tender proposal documents, except for documents from non-residents where required by law (e.g., translation of official foreign documents).",
+    "examples_compliance": [
+      "State that copies of documents must be certified by the participant's signature and seal (if applicable), except for specific cases involving non-residents."
+    ],
+    "examples_non_compliance": [
+      "Requiring all copies of certificates, permits, or financial statements to be notarized."
+    ],
+    "applies_to": "2.1)"
+  },
+  {
+    "rule": "Do not require paper documents.",
+    "examples_compliance": [
+      "Specify that all documents must be submitted electronically through the procurement system."
+    ],
+    "examples_non_compliance": [
+      "Requiring participants to submit physical copies of their tender proposals."
+    ],
+    "applies_to": "2.1)"
+  },
+  {
+    "rule": "Allow non-residents to provide analogs of required documents.",
+    "examples_compliance": [
+      "State that non-resident participants may submit documents issued in their country that serve a similar purpose to the required Ukrainian documents."
+    ],
+    "examples_non_compliance": [
+      "Requiring non-residents to provide Ukrainian-specific documents that do not exist in their country."
+    ],
+    "applies_to": "2.1)"
+  },
+  {
+    "rule": "Do not refuse or hinder participants from obtaining full information about the subject of procurement, project documentation, or site access.",
+    "examples_compliance": [
+      "Respond promptly to requests for clarification regarding project documentation.",
+      "Organize site visits for potential participants if requested or deemed necessary."
+    ],
+    "examples_non_compliance": [
+      "Ignoring participant questions about the project details.",
+      "Denying access to the construction site for potential bidders."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "Do not require additional documents in the tender documentation that do not confirm the participant's capacity but complicate preparation or increase the risk of errors or ambiguity (e.g., specific tax certificates, cost estimates within the TD proposal, consent letters for all points of the technical specification, draft contracts filled out by participants).",
+    "examples_compliance": [
+      "Limit the required documents to those directly related to confirming qualification criteria and proposal compliance.",
+      "Do not require participants to submit a full cost estimate as part of their initial tender proposal (unless it's the contract price calculation after winning)."
+    ],
+    "examples_non_compliance": [
+      "Requiring a certificate of no tax debt from every local tax office where the participant is registered.",
+      "Requiring participants to submit a signed consent letter for every single item in the technical specification."
+    ],
+    "applies_to": "2)"
+  },
+  {
+    "rule": "Do not require preliminary site visit reports in the tender proposal.",
+    "examples_compliance": [
+      "While site visits can be allowed or recommended, do not make the submission of a report from such a visit a mandatory part of the tender proposal."
+    ],
+    "examples_non_compliance": [
+      "Requiring participants to submit a signed document confirming their visit to the site as part of their proposal."
+    ],
+    "applies_to": "2)"
+  },
+  {
+    "rule": "After determining the winner, do not require documents not specified in the tender documentation or set additional requirements for the formatting or content of the contract and its annexes.",
+    "examples_compliance": [
+      "Only request documents from the winner that were listed in the tender documentation as required for contract signing.",
+      "Adhere to the formatting and content requirements for the contract and annexes as outlined in the draft contract provided in the TD."
+    ],
+    "examples_non_compliance": [
+      "Requesting additional certificates or documents from the winner that were not mentioned in the TD.",
+      "Imposing new formatting requirements for the contract annexes (e.g., requiring specific binding or paper type) after the winner is determined."
+    ],
+    "applies_to": "2)"
+  },
+  {
+    "rule": "Allow non-residents to submit analogs of required documents (including bank guarantees, confirmation of similar contracts, financial capacity).",
+    "examples_compliance": [
+      "Accept a bank guarantee from a foreign bank that complies with international standards (URDG 758) as an analog to a Ukrainian bank guarantee.",
+      "Accept financial statements prepared according to international accounting standards as an analog to Ukrainian financial statements."
+    ],
+    "examples_non_compliance": [
+      "Insisting that a non-resident participant must provide a bank guarantee issued by a Ukrainian bank.",
+      "Rejecting financial statements from a non-resident because they are not in the exact Ukrainian Form No 2."
+    ],
+    "applies_to": "2), 3)"
+  },
+  {
+    "rule": "Documents in a language other than Ukrainian must be accompanied by a Ukrainian translation.",
+    "examples_compliance": [
+      "Require participants submitting documents in English to provide a Ukrainian translation."
+    ],
+    "examples_non_compliance": [
+      "Accepting documents only in a foreign language without requiring a translation."
+    ],
+    "applies_to": "2.1)"
+  },
+  {
+    "rule": "Official documents from foreign states must be legalized or apostilled and translated (translation certified by a notary).",
+    "examples_compliance": [
+      "Specify that official foreign documents (e.g., extract from a foreign register) must undergo legalization or apostille procedures and have a notarized translation."
+    ],
+    "examples_non_compliance": [
+      "Accepting official foreign documents without proper legalization/apostille and notarized translation."
+    ],
+    "applies_to": "2.1)"
+  },
+  {
+    "rule": "Unofficial documents from non-residents must be translated into Ukrainian (translation certified by the participant).",
+    "examples_compliance": [
+      "State that translations of unofficial documents (e.g., internal company certificates) from non-residents must be certified by the participant's signature."
+    ],
+    "examples_non_compliance": [
+      "Requiring notarization for translations of all documents from non-residents, including unofficial ones."
+    ],
+    "applies_to": "2.1)"
+  },
+  {
+    "rule": "Qualification criteria may include: availability of equipment, material-technical base, and technologies; availability of qualified employees; documented similar experience; financial capacity (confirmed by financial statements).",
+    "examples_compliance": [
+      "Include one or more of these criteria in section 3 of the TD."
+    ],
+    "examples_non_compliance": [
+      "Setting qualification criteria that are not listed in Article 16 of the Law or these recommendations (e.g., requiring ISO 9001 certification without linking it to capacity)."
+    ],
+    "applies_to": "3)"
+  },
+  {
+    "rule": "Allow participants to confirm availability of equipment, material base, technologies, and employees by involving subcontractors/co-executors (Article 16 of the Law).",
+    "examples_compliance": [
+      "State in the TD that the participant can use the capacity of subcontractors to meet the requirements for equipment, material base, and personnel."
+    ],
+    "examples_non_compliance": [
+      "Requiring the participant to directly own all equipment or employ all personnel needed."
+    ],
+    "applies_to": "3)"
+  },
+  {
+    "recommendation": "Set 'availability of equipment, material-technical base, and technologies' as a qualification criterion.",
+    "examples_compliance": [
+      "Include section 3.1 in the TD."
+    ],
+    "examples_non_compliance": [
+      "Not setting any requirements regarding equipment or material base."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Require a certificate listing equipment (vehicles, construction machines, mechanisms, equipment, etc.) that meets the customer's requirements based on project documentation.",
+    "examples_compliance": [
+      "Include a requirement for participants to submit a certificate listing their available equipment relevant to the project scope."
+    ],
+    "examples_non_compliance": [
+      "Not requiring any confirmation of equipment availability."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "The customer defines the necessary list of equipment based on the project organization plan (DBN A.3.1-5:2016, Annex E), specifying quantity and name.",
+    "examples_compliance": [
+      "Create the list of required equipment in the TD based on the specific needs identified in the project's organization plan."
+    ],
+    "examples_non_compliance": [
+      "Creating a generic list of equipment without linking it to the specific project needs."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Require participants to confirm the availability of only the main items of equipment and machinery that are specialized and demonstrate the ability to perform the relevant work.",
+    "examples_compliance": [
+      "Focus the required equipment list on specialized machinery crucial for the project, rather than common tools."
+    ],
+    "examples_non_compliance": [
+      "Requiring confirmation for every single tool or minor equipment item."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "If necessary to define technical characteristics of equipment, specify only the main characteristics and formulate them using phrases like 'from...', 'not less than...', 'not more than...', etc., not specific values.",
+    "examples_compliance": [
+      "Require an excavator with a bucket volume 'not less than 1.5 m³'."
+    ],
+    "examples_non_compliance": [
+      "Requiring an excavator with a bucket volume of '1.8 m³'."
+    ],
+    "applies_to": "3.1), 4.1)"
+  },
+  {
+    "rule": "In exceptional cases, if a specific brand, model, etc., of equipment is mentioned, always add 'or equivalent'. Technical characteristics of the equivalent must not be worse.",
+    "examples_compliance": [
+      "Require 'Pump model XYZ or equivalent, with technical characteristics not worse than XYZ'."
+    ],
+    "examples_non_compliance": [
+      "Requiring 'Pump model XYZ' without allowing equivalents."
+    ],
+    "applies_to": "3.1), 4.1)"
+  },
+  {
+    "rule": "The certificate of equipment availability must indicate the ownership status (own, leased, subcontractor's).",
+    "examples_compliance": [
+      "Include columns in the certificate template for indicating whether the equipment is owned or used under a different legal basis."
+    ],
+    "examples_non_compliance": [
+      "Accepting a list of equipment without information on how the participant has access to it."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "If third-party equipment is involved, specify the document (number, date) confirming the legal basis for its use in the certificate.",
+    "examples_compliance": [
+      "In the certificate template (Table 1 or 4), include a column to specify the details of the lease agreement or other contract for third-party equipment."
+    ],
+    "examples_non_compliance": [
+      "Not requiring participants to specify the legal basis for using equipment they don't own."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Do not require copies of the documents confirming the legal basis for using third-party equipment.",
+    "examples_compliance": [
+      "State in the TD that only the details of the document (name, number, date) are required in the certificate, not the document copy itself."
+    ],
+    "examples_non_compliance": [
+      "Requiring participants to upload copies of all lease agreements for equipment."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Require a certificate of equipment availability in the format of Table 1 (for construction works) or Table 4 (for services).",
+    "examples_compliance": [
+      "Include Table 1 or Table 4 template in the TD for participants to fill out."
+    ],
+    "examples_non_compliance": [
+      "Allowing participants to submit equipment lists in any format."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "If the procurement requires a construction laboratory, require a scan copy of the accreditation certificate (attestat or certificate) valid at the time of proposal opening.",
+    "examples_compliance": [
+      "Include this requirement in the TD if laboratory services are necessary for the works."
+    ],
+    "examples_non_compliance": [
+      "Not requiring confirmation of laboratory accreditation when necessary."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "If a laboratory is involved under a contract, require scan copies of the contract (valid at the time of tender announcement) and the accreditation certificate (valid at the time of proposal opening).",
+    "examples_compliance": [
+      "Specify that if a third-party laboratory is used, both the contract and the accreditation certificate must be provided."
+    ],
+    "examples_non_compliance": [
+      "Only requiring the accreditation certificate for a third-party laboratory without confirming the contractual relationship."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Set 'availability of similar contract performance experience' as a qualification criterion.",
+    "examples_compliance": [
+      "Include section 3.2 in the TD."
+    ],
+    "examples_non_compliance": [
+      "Not setting any requirements regarding previous experience."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "recommendation": "Require documented confirmation of similar contract performance experience.",
+    "examples_compliance": [
+      "State that experience must be confirmed by submitting a certificate and copies of contracts/acceptance acts."
+    ],
+    "examples_non_compliance": [
+      "Accepting a simple statement of experience without requiring documentation."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Require a certificate of similar contract performance in the format of Table 2 (for construction works) or Table 8 (for services).",
+    "examples_compliance": [
+      "Include Table 2 or Table 8 template in the TD for participants to fill out."
+    ],
+    "examples_non_compliance": [
+      "Allowing participants to submit experience lists in any format."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Define 'similar contract' for construction works as one for new construction, reconstruction, capital repair, or restoration of buildings (according to DK 018) performed within the last 5 years.",
+    "examples_compliance": [
+      "State this specific definition of a similar contract in the TD."
+    ],
+    "examples_non_compliance": [
+      "Defining similar contracts based on a different timeframe or scope."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "The consequence class (responsibility) of the object in the similar contract must be not lower than the consequence class of the object for the current procurement.",
+    "examples_compliance": [
+      "Specify the required minimum consequence class for the object of the similar contract (e.g., 'CC2 or higher')."
+    ],
+    "examples_non_compliance": [
+      "Accepting experience on objects with a lower consequence class than the current project."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "The participant must provide a copy of the document confirming the consequence class of the object in the similar contract (project documentation, permit from DABI/DIAM, readiness certificate).",
+    "examples_compliance": [
+      "Require participants to upload copies of these documents along with the similar contract."
+    ],
+    "examples_non_compliance": [
+      "Not requiring confirmation of the consequence class for the object of the similar contract."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "For new construction procurement, only a new construction contract is considered similar.",
+    "examples_compliance": [
+      "If procuring new construction, state that similar experience must be specifically for new construction projects."
+    ],
+    "examples_non_compliance": [
+      "If procuring new construction, accepting experience with capital repair as similar."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "For reconstruction procurement, a new construction or reconstruction contract is considered similar.",
+    "examples_compliance": [
+      "If procuring reconstruction, state that similar experience can be for either new construction or reconstruction projects."
+    ],
+    "examples_non_compliance": [
+      "If procuring reconstruction, only accepting experience with reconstruction projects."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "For capital repair or restoration procurement, any contract for new construction, reconstruction, restoration, or capital repair is considered similar.",
+    "examples_compliance": [
+      "If procuring capital repair, state that similar experience can be for any of these types of construction works."
+    ],
+    "examples_non_compliance": [
+      "If procuring capital repair, only accepting experience with capital repair projects."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Participants can provide confirmation of experience with one contract or sum up experience from multiple contracts.",
+    "examples_compliance": [
+      "State in the TD that experience can be confirmed by either a single contract meeting the criteria or by summing up the value/scope of multiple contracts."
+    ],
+    "examples_non_compliance": [
+      "Requiring that the experience must be confirmed by a single contract only."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "recommendation": "Set a requirement for the total value of similar contracts to be a certain percentage of the expected value, according to Table 2a (for works) or Table 9 (for services).",
+    "examples_compliance": [
+      "Specify the required minimum total value of similar contracts based on the expected value and the percentages/amounts in the relevant table."
+    ],
+    "examples_non_compliance": [
+      "Not setting a minimum required value for similar experience."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Require a certificate of the value of completed construction works and costs (KB-3 form, approved by Minregion Decree No 281) or another document confirming acceptance of completed works for the similar contract(s) listed in the certificate.",
+    "examples_compliance": [
+      "Require participants to upload copies of KB-3 forms or acceptance acts (e.g., Form KB-2v, Certificate of work performance) for the similar contracts."
+    ],
+    "examples_non_compliance": [
+      "Only requiring the contract copy without confirmation of actual performance and value."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "recommendation": "Set 'availability of qualified employees' as a qualification criterion.",
+    "examples_compliance": [
+      "Include section 3.1 in the TD, specifying requirements for key personnel."
+    ],
+    "examples_non_compliance": [
+      "Not setting any requirements regarding the availability or qualification of employees."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Include the listed engineering positions as mandatory key positions for construction works procurement: chief engineer, site manager/works supervisor, engineer for cost documentation, occupational safety engineer (construction).",
+    "examples_compliance": [
+      "List these specific roles as required key personnel in the TD."
+    ],
+    "examples_non_compliance": [
+      "Not requiring the availability of a chief engineer or occupational safety engineer."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Require a certificate with information about qualified employees in the format of Table 3 (for construction works) or Table 5 (for services).",
+    "examples_compliance": [
+      "Include Table 3 or Table 5 template in the TD for participants to fill out for key personnel."
+    ],
+    "examples_non_compliance": [
+      "Allowing participants to submit employee lists in any format."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Require documents confirming the legal relationship with the employees listed in the certificate (employment records, appointment orders, part-time work orders, civil-law contracts, etc.).",
+    "examples_compliance": [
+      "Specify that copies of these documents must be provided to confirm the availability of the listed personnel."
+    ],
+    "examples_non_compliance": [
+      "Only requiring the certificate listing personnel without proof of their employment or engagement."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Allow engineering personnel to be engaged under any form of contract (employment, civil-law, part-time).",
+    "examples_compliance": [
+      "State this flexibility in the TD, confirming that full-time employment is not the sole acceptable form of engagement."
+    ],
+    "examples_non_compliance": [
+      "Requiring all key engineering personnel to be full-time employees."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Set a requirement for the availability of working professionals in the quantity necessary for the work, determined by the customer based on the project organization plan.",
+    "examples_compliance": [
+      "Specify the required total number of working professionals needed for the project based on the project organization plan."
+    ],
+    "examples_non_compliance": [
+      "Not setting any requirements for the availability of working professionals."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Require a certificate with information about working professionals in the format of Table 3a.",
+    "examples_compliance": [
+      "Include Table 3a template in the TD for participants to fill out for working professionals."
+    ],
+    "examples_non_compliance": [
+      "Allowing participants to submit working professional lists in any format."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "The customer may list specific working professions based on the project organization plan, but should require only the total number of employees across all specified professions, not a specific number for each profession.",
+    "examples_compliance": [
+      "List required professions (e.g., concrete worker, welder, electrician) and state the required total number of employees for these professions combined."
+    ],
+    "examples_non_compliance": [
+      "Requiring a specific number of concrete workers, a specific number of welders, etc."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Allow working professionals to be engaged under any form of contract.",
+    "examples_compliance": [
+      "State this flexibility in the TD for working professionals."
+    ],
+    "examples_non_compliance": [
+      "Requiring all working professionals to be full-time employees."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Note that copies of supporting documents for working professionals are not required.",
+    "examples_compliance": [
+      "State in the TD that only the certificate (Table 3a) is required for working professionals, and supporting documents are not needed."
+    ],
+    "examples_non_compliance": [
+      "Requiring copies of employment records or contracts for all working professionals."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "recommendation": "Set 'availability of financial capacity' as a qualification criterion.",
+    "examples_compliance": [
+      "Include section 3.3 in the TD."
+    ],
+    "examples_non_compliance": [
+      "Not setting any requirements regarding financial capacity."
+    ],
+    "applies_to": "3.3)"
+  },
+  {
+    "rule": "Financial capacity is confirmed by financial statements.",
+    "examples_compliance": [
+      "Require participants to submit copies of their financial statements."
+    ],
+    "examples_non_compliance": [
+      "Requiring other documents (e.g., bank certificates of account balance) instead of financial statements to confirm financial capacity."
+    ],
+    "applies_to": "3.3)"
+  },
+  {
+    "rule": "The customer cannot require confirmation of annual revenue/income in an amount greater than the expected value of the subject of procurement.",
+    "examples_compliance": [
+      "If the expected value is 100 million UAH, the maximum required revenue is 100 million UAH."
+    ],
+    "examples_non_compliance": [
+      "If the expected value is 100 million UAH, requiring participants to have annual revenue of at least 120 million UAH."
+    ],
+    "applies_to": "3.3)"
+  },
+  {
+    "recommendation": "Require confirmation of revenue/income (line 2000 of financial statements) for any of the last 3 calendar years or a shorter reporting period of the current year, according to Table 36.",
+    "examples_compliance": [
+      "Specify the required minimum revenue based on the expected value and Table 36.",
+      "Require copies of the financial results report (Form 2) or financial report for small enterprises (Form 2-m) for the relevant period."
+    ],
+    "examples_non_compliance": [
+      "Requiring revenue confirmation for all 3 years, even if experience from one year is sufficient according to the table.",
+      "Not specifying which financial statement form is required."
+    ],
+    "applies_to": "3.3)"
+  },
+  {
+    "rule": "For procurement of design documentation development services, recommend defining qualification requirements for the necessary number of qualified employees according to Table 6.",
+    "examples_compliance": [
+      "If procuring design services, include section 3.1 and specify the required number of architects and engineers based on Table 6 and the object's consequence class."
+    ],
+    "examples_non_compliance": [
+      "If procuring design services, setting arbitrary requirements for the number of design personnel."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "For technical supervision/engineer-consultant procurement, set qualification requirements for key personnel according to the numbers specified in Table 7 based on the object's consequence class.",
+    "examples_compliance": [
+      "If procuring technical supervision for a CC2 object, require at least one technical supervision engineer (not lower than CC1) as per Table 7."
+    ],
+    "examples_compliance": [
+      "If procuring technical supervision for a CC3 object, require at least one project manager (technical lead) and one technical supervision engineer (not lower than CC2) as per Table 7."
+    ],
+    "examples_non_compliance": [
+      "If procuring technical supervision for a CC3 object, only requiring one technical supervision engineer without specifying the required consequence class level."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "The list of personnel in Table 7 should be formed depending on the specific functions assigned to the technical supervision or engineer-consultant.",
+    "examples_compliance": [
+      "If the engineer-consultant's functions include technical inspection, require a building expert as per Table 7."
+    ],
+    "examples_non_compliance": [
+      "Requiring all roles from Table 7 regardless of the specific scope of services being procured."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Information in the certificate (Table 7) can be confirmed by copies of documents certified by the participant.",
+    "examples_compliance": [
+      "State that copies of qualification certificates and diplomas for personnel listed in Table 7 must be provided, certified by the participant."
+    ],
+    "examples_non_compliance": [
+      "Requiring notarized copies of personnel documents."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Required documents for employees (for services): qualification certificates or diplomas (higher education); employment records, appointment orders, part-time orders (if available), civil-law contracts, or other contracts.",
+    "examples_compliance": [
+      "List these specific types of documents that participants must provide to confirm employee qualifications and engagement."
+    ],
+    "examples_non_compliance": [
+      "Requiring only a diploma without the qualification certificate for design/supervision roles."
+    ],
+    "applies_to": "3.1)"
+  },
+  {
+    "rule": "Define 'similar contract' for design/technical supervision/engineer-consultant services as one performed within the last 5 years for an object (building) of the same or higher consequence class.",
+    "examples_compliance": [
+      "State this specific definition of a similar contract for services in the TD."
+    ],
+    "examples_non_compliance": [
+      "Defining similar service contracts based on a different timeframe or object type."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "For design documentation procurement, a contract for design documentation development is considered similar.",
+    "examples_compliance": [
+      "If procuring design services, state that similar experience must be specifically for design documentation development."
+    ],
+    "examples_non_compliance": [
+      "If procuring design services, accepting experience with technical supervision as similar."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "For technical supervision procurement, a contract for technical supervision is considered similar.",
+    "examples_compliance": [
+      "If procuring technical supervision, state that similar experience must be specifically for technical supervision services."
+    ],
+    "examples_non_compliance": [
+      "If procuring technical supervision, accepting experience with design services as similar."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "For engineer-consultant procurement, a contract for engineer-consultant services is considered similar.",
+    "examples_compliance": [
+      "If procuring engineer-consultant services, state that similar experience must be specifically for engineer-consultant services."
+    ],
+    "examples_non_compliance": [
+      "If procuring engineer-consultant services, accepting experience with general construction management as similar."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Documents confirming the information in the certificate (Table 8) include: similar contract with annexes; acceptance act or other document confirming performance; scan copy(ies) of at least one positive expert report/evaluation for the design stages (TER, TEO, P/RP) for design documentation procurement.",
+    "examples_compliance": [
+      "List these specific documents as required confirmations for similar experience in services procurement."
+    ],
+    "examples_non_compliance": [
+      "Not requiring the expert report for similar design contracts.",
+      "Only requiring the contract copy without proof of performance."
+    ],
+    "applies_to": "3.2)"
+  },
+  {
+    "rule": "Customer must provide clarifications to participant requests/demands within 3 days of their publication in the electronic system.",
+    "examples_compliance": [
+      "Monitor the electronic system daily for participant questions and publish responses within the 3-day limit."
+    ],
+    "examples_non_compliance": [
+      "Delaying responses to participant questions beyond the legal limit."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "recommendation": "Provide full and exhaustive answers/clarifications to participant requests.",
+    "examples_compliance": [
+      "Address all points raised in a participant's request clearly and completely."
+    ],
+    "examples_non_compliance": [
+      "Providing vague or incomplete answers that do not resolve the participant's query."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "The contract price is calculated based on normative needs and current prices/aggregated indicators according to Minregion Decree No 162 and approved project documentation.",
+    "examples_compliance": [
+      "Reference Minregion Decree No 162 as the basis for contract price calculation in the TD and draft contract."
+    ],
+    "examples_non_compliance": [
+      "Calculating the contract price based on internal estimates without referencing official norms and guidelines."
+    ],
+    "applies_to": "4.1)"
+  },
+  {
+    "recommendation": "Establish a procedure for calculating and approving the winner's contract price in the TD, stipulating that the price must be approved by the customer before contract signing.",
+    "examples_compliance": [
+      "Include a section in the TD detailing the process and timeline for the winner to submit the contract price calculation and for the customer to review and approve it."
+    ],
+    "examples_non_compliance": [
+      "Not defining any procedure for reviewing and approving the winner's detailed contract price calculation."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "Establish a procedure requiring the winner to upload the contract price with calculations in PDF and compatible electronic formats (.ibs, .idc, .ipd, .bsdu, .bdcu, etc.) within a specified period (not exceeding 4 days) after the notification of intent to award.",
+    "examples_compliance": [
+      "Specify the exact file formats and the deadline (e.g., 3 working days) for the winner to upload the contract price calculations."
+    ],
+    "examples_non_compliance": [
+      "Only requiring the contract price calculation in PDF.",
+      "Setting an unreasonably short deadline for uploading calculations."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "The uploaded contract price must be based on the auction results and include: the fixed contract price, explanatory note, local cost estimates (based on technical specification, including material/equipment characteristics), summary resource statement, calculation of overheads, calculation of administrative costs, other supporting calculations.",
+    "examples_compliance": [
+      "List these specific components that must be included in the contract price calculation submitted by the winner."
+    ],
+    "examples_non_compliance": [
+      "Accepting a simplified contract price breakdown that doesn't include detailed local cost estimates or resource statements."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "The customer must review the winner's contract price and calculations for compliance with requirements within 5 working days.",
+    "examples_compliance": [
+      "Adhere to the 5-working-day deadline for reviewing the submitted contract price calculations."
+    ],
+    "examples_non_compliance": [
+      "Exceeding the 5-working-day review period."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "If there are non-compliances in the contract price calculation, the customer must notify the winner with a list of non-compliances and provide at least 3 working days for correction.",
+    "examples_compliance": [
+      "Send a formal notification listing all identified issues in the calculations and specify the deadline for resubmission (e.g., 4 working days)."
+    ],
+    "examples_non_compliance": [
+      "Not providing a detailed list of non-compliances.",
+      "Giving the winner less than 3 working days to correct the calculations."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "Customer's comments on the contract price calculation must be based solely on the requirements of the Guidelines and the Tender Documentation.",
+    "examples_compliance": [
+      "Ensure that any comments or required corrections refer back to specific points in the 'Guidelines for determining the cost of construction' or the TD requirements."
+    ],
+    "examples_non_compliance": [
+      "Requesting changes to the calculation based on subjective preferences or requirements not specified in the TD."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "If the customer does not provide justified comments within 5 working days, the contract price and calculations are considered approved.",
+    "examples_compliance": [
+      "If the review is completed without issues, proceed with contract signing. If the review is not completed within 5 days, the calculations are deemed approved by default."
+    ],
+    "examples_non_compliance": [
+      "Claiming non-compliance after the 5-day period has passed without prior notification."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "If the winner does not correct the non-compliances or provide compliant calculations within the given timeframe, they are considered to have refused to sign the contract (point 3, paragraph 44 of Peculiarities).",
+    "examples_compliance": [
+      "Follow the procedure outlined in the TD and Peculiarities for disqualifying the winner if they fail to correct calculations on time."
+    ],
+    "examples_non_compliance": [
+      "Signing the contract despite the winner failing to provide compliant calculations after notification."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "The customer publishes the contract and all annexes in the electronic system.",
+    "examples_compliance": [
+      "Upload the signed contract, the approved contract price calculation, the work schedule, and the financing plan to the electronic system."
+    ],
+    "examples_non_compliance": [
+      "Publishing only the main contract document without the annexes."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "Integral parts of the construction contract include the contract price, work schedule, and financing plan.",
+    "examples_compliance": [
+      "Ensure these documents are attached as annexes and referenced as integral parts of the signed contract."
+    ],
+    "examples_non_compliance": [
+      "Signing a construction contract without a work schedule or financing plan as annexes."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "recommendation": "The customer may include other annexes to the draft contract in the TD.",
+    "examples_compliance": [
+      "Include templates for reporting forms or communication procedures as annexes to the draft contract in the TD."
+    ],
+    "examples_non_compliance": [
+      "Adding significant new annexes to the contract after the tender process is complete that were not included or referenced in the draft contract in the TD."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "The contract price is published in full, including all calculations (local cost estimates, summary resource statement with prices).",
+    "examples_compliance": [
+      "Ensure the published contract price annex includes the detailed breakdown of costs."
+    ],
+    "examples_non_compliance": [
+      "Publishing only the final contract price amount without the supporting calculations."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "Local cost estimates and resource statements must be published in .pdf and .xls(x) formats, and in the format of files from the relevant cost estimation software.",
+    "examples_compliance": [
+      "Upload the local cost estimates as three separate files: PDF, Excel, and the native software format (e.g., .ibs)."
+    ],
+    "examples_non_compliance": [
+      "Only publishing the cost estimates as PDF files."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "The work schedule is prepared by the winner according to DBN A.3.1-5:2016.",
+    "examples_compliance": [
+      "Reference DBN A.3.1-5:2016 in the TD and draft contract regarding the requirements for the work schedule."
+    ],
+    "examples_non_compliance": [
+      "Accepting a work schedule that does not comply with the relevant DBN."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "Requirements for forming the work schedule are set in the TD if necessary.",
+    "examples_compliance": [
+      "Include specific requirements or a template for the work schedule in the TD."
+    ],
+    "examples_non_compliance": [
+      "Not providing any guidance on how the work schedule should be structured or what details it should contain."
+    ],
+    "applies_to": "7.1)"
+  },
+  {
+    "rule": "The customer can define work performance deadlines by stages in the TD. All participants must adhere to these deadlines.",
+    "examples_compliance": [
+      "Specify intermediate milestones and their deadlines in the technical specification or work schedule requirements in the TD."
+    ],
+    "examples_non_compliance": [
+      "Setting stage deadlines after the tender process is complete."
+    ],
+    "applies_to": "4.1), 7.1)"
+  },
+  {
+    "rule": "The customer is a user of ESUV and must enter information, data, and documents regarding all project stages (design, implementation, financing, etc.).",
+    "examples_compliance": [
+      "Ensure the responsible person is registered in ESUV and regularly enters required project data."
+    ],
+    "examples_non_compliance": [
+      "Failing to enter project information into the ESUV system."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "The customer must systematically fill the system according to the approved regulations or other normative documents. Until such a document is approved, information should be entered in test mode at least once a week.",
+    "examples_compliance": [
+      "Establish a schedule for data entry into ESUV, ensuring it happens at least weekly during the test period."
+    ],
+    "examples_non_compliance": [
+      "Neglecting to enter information into ESUV on a regular basis."
+    ],
+    "applies_to": "entire_document"
+  },
+  {
+    "rule": "If additional information is needed from the contractor for ESUV, the procedure for providing this information must be defined in the draft contract.",
+    "examples_compliance": [
+      "Include a clause in the draft contract requiring the contractor to provide specific data or reports needed for ESUV and define the format and frequency."
+    ],
+    "examples_non_compliance": [
+      "Requiring the contractor to provide information for ESUV without this obligation being specified in the contract."
+    ],
+    "applies_to": "7.1)"
+  }
+]
