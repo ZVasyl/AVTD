@@ -1,4 +1,5 @@
 [
+  { "rules":[
   {
     "rule": "Specify the subject of procurement using the relevant codes from the Unified Procurement Dictionary (DK 021:2015) as listed in Table 1 of the Methodical Recommendations.",
     "examples_compliance": [
@@ -1366,5 +1367,6 @@
       "Requiring the contractor to provide information for ESUV without this obligation being specified in the contract."
     ],
     "applies_to": "7.1)"
+  }]
   }
 ]
