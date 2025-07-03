@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AttendeesWithActionItems",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["attendee", "action_items"],
+    "properties": {
+      "attendee": {
+        "type": "string",
+        "description": "Імʼя чи позначення учасника (attendee)."
+      },
+      "action_items": {
+        "type": "array",
+        "description": "Список завдань, призначених цьому учасникові.",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["action item"],
+          "properties": {
+            "action item": {
+              "type": "string",
+              "description": "Задача, яку треба виконати."
+            }
+          }
+        }
+      }
+    }
+  }
+}
