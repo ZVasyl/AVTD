@@ -12,7 +12,7 @@
           "Так як вказано в даній документації"
         ],
         "applies_to_document_types": ["tender_docs"],
-        "applies_to_section_types": ["technical"]
+        "applies_to_section_types": ["qualification","participant_documents"]
       },
 
       {
@@ -25,7 +25,8 @@
           "Згідно з законом України",
           "Так як вказано в даній документації"
         ],
-        "applies_to": "Вимоги до учасника, кваліфікаційні критерії"
+        "applies_to_document_types": ["tender_docs"],
+        "applies_to_section_types": ["technical"]
       },
       {
         "query": "Технічні вимоги до предмету закупівлі",
@@ -38,7 +39,8 @@
           "Технічні характеристики та вимоги до предмета закупівлі містяться у Технічній специфікації.",
           "Так як вказано в даній документації"
         ],
-        "applies_to": "Технічні вимоги та опис предмету закупівлі"
+        "applies_to_document_types": ["tender_docs"],
+        "applies_to_section_types": ["technical"]
       }
     ]
   }
