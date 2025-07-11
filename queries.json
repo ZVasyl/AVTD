@@ -11,7 +11,8 @@
           "Замовник, ДК 021:2015: 80520000-5 — Навчальні засоби",
           "Так як вказано в даній документації"
         ],
-        "applies_to": "Назва закупівлі, назва замовника"
+        "applies_to_document_types": ["tender_docs"],
+        "applies_to_section_types": ["technical"]
       },
 
       {
